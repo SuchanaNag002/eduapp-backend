@@ -1,0 +1,16 @@
+google-generativeai 
+requests
+#--upgrade --quiet  langchain-google-genai pillow
+PyPDF2
+langchain_google_genai
+langchain
+tiktoken
+langchain-community
+python-dotenv
+pinecone-client
+youtube_transcript_api
+uvicorn
+python-multipart
+fastapi
+sqlalchemy 
+pydantic
