@@ -10,10 +10,13 @@ from langchain.chains import LLMChain  # Importing LLMChain for creating languag
 from langchain_google_genai import ChatGoogleGenerativeAI  # Importing ChatGoogleGenerativeAI for chat model
 import os  # Importing os module to access environment variables
 from pinecone import Pinecone  # Importing Pinecone for vector database
+from dotenv import load_dotenv  # Importing dotenv to load environment variables from a .env file
 from ..database import SessionLocal  # Importing SessionLocal for database session
 from ..models import PDFFile, PDFEmbedding  # Importing PDFFile and PDFEmbedding models
 
 router = APIRouter()  # Creating a new FastAPI router instance
+
+load_dotenv()  # Loading environment variables from a .env file
 
 # Initialize Pinecone
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))  # Initializing Pinecone with API key from environment variable
