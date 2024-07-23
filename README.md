@@ -32,7 +32,7 @@ The **GPTUTOR API** is a FastAPI-based application designed to provide functiona
 
    ```bash
    git clone https://github.com/yourusername/eduapp-backend.git
-   cd pdf-qa-api
+   cd eduapp-backend
    ```
 
 2. **Create a Virtual Environment**
