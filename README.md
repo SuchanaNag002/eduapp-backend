@@ -1,5 +1,5 @@
 
-```markdown
+```
 # PDF Q&A API
 
 ## Description
