@@ -1,10 +1,10 @@
 
 ---
-# PDF Q&A API
+# GPTUTOR API
 
 ## Description
 
-The **PDF Q&A API** is a FastAPI-based application designed to provide functionality for querying PDF documents, generating multiple-choice questions (MCQs), extracting and converting YouTube video transcripts into notes, and generating notes based on input topics. This application leverages various AI models and libraries to deliver comprehensive and interactive features.
+The **GPTUTOR API** is a FastAPI-based application designed to provide functionality for querying PDF documents, generating multiple-choice questions (MCQs), extracting and converting YouTube video transcripts into notes, and generating notes based on input topics. This application leverages various AI models and libraries to deliver comprehensive and interactive features.
 
 ## Features
 
@@ -137,8 +137,6 @@ Contributions are welcome! Please open an issue or submit a pull request if you'
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-```
 
 ### Explanation:
 
