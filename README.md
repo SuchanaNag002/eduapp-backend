@@ -118,6 +118,7 @@ root/
 ├── app/
 │   ├── database.py        # Database setup and initialization
 │   ├── main.py            # FastAPI application entry point
+|   ├── schemas.py         # Pydantic schemas
 │   ├── models.py          # SQLAlchemy models
 │   └── services/
 │       ├── pdf_service.py # PDF querying service
